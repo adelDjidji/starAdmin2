@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 ReactDOM.render(
-  <BrowserRouter basename="/demo/star-admin-free/react/template/demo_1/preview">
+  <BrowserRouter basename="/">
     <App />
   </BrowserRouter>
 , document.getElementById('root'));

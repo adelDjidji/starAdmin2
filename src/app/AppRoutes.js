@@ -29,6 +29,7 @@ class AppRoutes extends Component {
     return (
       <Suspense fallback={<Spinner/>}>
         <Switch>
+          <Route exact path="/" component={ Home } />
           <Route exact path="/dashboard" component={ Home } />
 
           <Route path="/basic-ui/buttons" component={ Buttons } />
