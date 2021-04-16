@@ -26,6 +26,7 @@ body {
     min-height: 100vh;
     padding-top: 0;
     .main-panel {
+      margin-left: 270px;
       width: 100%;
       transition: none;
       margin-top:-$navbar-height;
@@ -43,6 +44,7 @@ body {
   transition: width $action-transition-duration $action-transition-timing-function, margin $action-transition-duration $action-transition-timing-function;
   width: calc(100% - #{$sidebar-width-lg});
   min-height: calc(100vh - #{$navbar-height});
+  margin-left: 270px;
   padding-top: $navbar-height;
   @include display-flex();
   @include flex-direction(column);

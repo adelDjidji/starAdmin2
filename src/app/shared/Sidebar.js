@@ -52,9 +52,16 @@ class Sidebar extends Component {
   } 
   render () {
     return (
-      <nav className="sidebar sidebar-offcanvas" id="sidebar">
+      <nav className=" sidebar-fixed sidebar sidebar-offcanvas fixed-top" id="sidebar" style={{
+        maxHeight: '100vh',
+  overflow: 'auto'
+      }}>
         <div className="text-center sidebar-brand-wrapper d-flex align-items-center">
-          <a className="sidebar-brand brand-logo" href="index.html"><img src={require("../../assets/images/logo.svg")} alt="logo" /></a>
+          <a className="sidebar-brand brand-logo" href="index.html">
+            {/* <img src={require("../../assets/images/logo.svg")} alt="logo" /> */}
+            <div className="text-white text-2xl font-bold">Dashboard</div>
+            
+            </a>
           <a className="sidebar-brand brand-logo-mini pt-3" href="index.html"><img src={require("../../assets/images/logo-mini.svg" )} alt="logo" /></a>
         </div>
         <ul className="nav p-4">
@@ -114,7 +121,7 @@ class Sidebar extends Component {
           
           
           <li className="nav-item nav-profile not-navigation-link">
-            <div className="nav-link bg-blue-100 text-black rounded-md border-2 border-gray ">
+            <div className="nav-link bg-white text-black rounded-md border-2 border-gray ">
               
                 <div className="nav-link block user-switch-dropdown-toggler p-0 toggle-arrow-hide bg-transparent border-0 w-100">
                   <div className="d-flex justify-content-between align-items-start">

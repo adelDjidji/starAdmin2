@@ -602,16 +602,16 @@ export class Dashboard extends Component {
 
 
     marketingOverviewData = {
-        labels: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug"],
+        labels: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug", "Sep", "Oct", "Nov", "Dec"],
         datasets: [{
             label: 'Cost',
-            data: [145,238,148,293,242,235,256,334],
+            data: [145,238,148,293,242,235,256,334, 210, 200, 120, 100],
             backgroundColor: '#826af9',
             borderColor: '#826af9',
             borderWidth: 0
         },{
             label: 'Budget',
-            data: [330,380,230,400,309,430,340,310],
+            data: [330,380,230,400,309,430,340,310, 210, 200, 120, 100],
             borderColor: '#9e86ff',
             borderWidth: 0
         }
@@ -1000,7 +1000,8 @@ export class Dashboard extends Component {
                                             width: 150,
                                             height: 45,
                                             border: 'solid 1px #3d424624',
-                                            textAlign: 'left'
+                                            textAlign: 'left',
+                                            backgroundColor:'white'
                                         }} variant="btn btn-secondary dropdown-toggle" id="dropdownMenuButton1">
                                             2021
                                     </Dropdown.Toggle>
@@ -1023,7 +1024,8 @@ export class Dashboard extends Component {
                                             width: 150,
                                             height: 45,
                                             border: 'solid 1px #3d424624',
-                                            textAlign: 'left'
+                                            textAlign: 'left',
+                                            backgroundColor:'white'
                                         }} variant="btn btn-secondary dropdown-toggle" id="dropdownMenuButton1">
                                             All months
                                     </Dropdown.Toggle>
@@ -1053,7 +1055,8 @@ export class Dashboard extends Component {
                                             width: 140,
                                             height: 45,
                                             border: 'solid 1px #3d424624',
-                                            textAlign: 'left'
+                                            textAlign: 'left',
+                                            backgroundColor:'white'
                                         }} variant="btn btn-secondary dropdown-toggle" id="dropdownMenuButton1">
                                             Start date
                                     </Dropdown.Toggle>
@@ -1072,7 +1075,8 @@ export class Dashboard extends Component {
                                             width: 140,
                                             height: 45,
                                             border: 'solid 1px #3d424624',
-                                            textAlign: 'left'
+                                            textAlign: 'left',
+                                            backgroundColor:'white'
                                         }} variant="btn btn-secondary dropdown-toggle" id="dropdownMenuButton1">
                                             End date
                                     </Dropdown.Toggle>
@@ -1091,7 +1095,7 @@ export class Dashboard extends Component {
                     <div className="col-md-6 grid-margin">
                         <div className="card">
                             <div className="card-body pb-0 p-3 text-center">
-                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electrecity Cost</h4>
+                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electricity Cost</h4>
 
                                 <div className="d-flex align-items-end">
                                 </div>
@@ -1108,7 +1112,7 @@ export class Dashboard extends Component {
                     <div className="col-md-6 grid-margin">
                         <div className="card">
                             <div className="card-body pb-0 p-3 text-center">
-                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electrecity Budget Usage</h4>
+                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electricity Budget Usage</h4>
 
                                 <div className="d-flex align-items-end">
                                 </div>
@@ -1125,7 +1129,7 @@ export class Dashboard extends Component {
                     <div className="col-md-6 grid-margin">
                         <div className="card">
                             <div className="card-body pb-0 p-3 text-center">
-                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electrecity Cost</h4>
+                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electricity Cost</h4>
 
                                 <div className="d-flex align-items-end">
                                 </div>
@@ -1142,7 +1146,7 @@ export class Dashboard extends Component {
                     <div className="col-md-6 grid-margin">
                         <div className="card">
                             <div className="card-body pb-0 p-3 text-center">
-                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electrecity Cost</h4>
+                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electricity Cost</h4>
 
                                 <div className="d-flex align-items-end">
                                 </div>
@@ -1159,7 +1163,7 @@ export class Dashboard extends Component {
                     <div className="col-md-6 grid-margin">
                         <div className="card">
                             <div className="card-body pb-0 p-3 text-center">
-                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electrecity Cost</h4>
+                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electricity Cost</h4>
 
                                 <div className="d-flex align-items-end">
                                 </div>
@@ -1176,7 +1180,7 @@ export class Dashboard extends Component {
                     <div className="col-md-6 grid-margin">
                         <div className="card">
                             <div className="card-body pb-0 p-3 text-center">
-                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electrecity Cost</h4>
+                                <h4 className="absolute transform translate-y--12 font-bold mb-0 text-lg">Electricity Cost</h4>
 
                                 <div className="d-flex align-items-end">
                                 </div>

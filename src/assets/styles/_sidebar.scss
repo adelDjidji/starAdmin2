@@ -79,6 +79,7 @@
             display: block;
 
             &:before {
+              // display: none;
               content: "";
               position: absolute;
               top: 0px;
@@ -271,6 +272,7 @@
         position: relative;
 
         &:before {
+          display: none !important;
           content: "";
           position: absolute;
           left: 30px;
@@ -302,7 +304,7 @@
           &:not(.nav-profile):not(.hover-open) {
             >.nav-link:not([aria-expanded="true"]) {
               background: $sidebar-light-menu-hover-bg;
-              padding-left: 65px;
+              // padding-left: 65px;
 
               .rtl & {
                 padding-left: 30px;
