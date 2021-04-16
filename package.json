@@ -83,7 +83,10 @@
     "slick-carousel": "^1.8.1",
     "sweetalert2-react": "^0.8.3",
     "ti-icons": "^0.1.2",
-    "typicons.font": "^2.0.9"
+    "typicons.font": "^2.0.9",
+    "@tailwindcss/postcss7-compat": "^2.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
+
   },
   "scripts": {
     "start": " craco start",
